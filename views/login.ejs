@@ -1,0 +1,33 @@
+<!-- <%- include('partials/header') %>
+
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Secrets</h1>
+    <p class="lead">Don't keep your secrets, share them anonymously!</p>
+    <hr>
+    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %> -->
+
+<%- include('partials/header') %>
+
+    <div class="wrapper">
+      <div class="logo"> <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt=""> </div>
+      <div class="text-center mt-4 name"> Twitter </div>
+      <form action="/" method="post" class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="username" id="userName" placeholder="Username"> </div>
+        <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password" name="password" id="pwd" placeholder="Password"> </div> <button type="submit" class="btn mt-3">Log in</button>
+    </form>
+      <div class="text-center fs-6"> <a href="#">Forget password?</a> or <a href="register">Sign up</a> </div>
+      <div class="text-center fs-6"> <a href="/auth/google">Google</a> </div>
+
+    </div>
+
+
+<%- include('partials/footer') %>
